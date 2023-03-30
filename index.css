@@ -1,14 +1,22 @@
 /* Write your code here. */
+* {
+  margin: 0px;
+}
 .container {
   background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
   background-size: cover;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .heading {
   color: #ffffff;
   font-family: "Bree Serif";
-  font-size: 29px;
+  font-size: 39px;
   text-align: center;
+  margin: 5px;
 }
 .btn {
   font-family: "Roboto";
@@ -37,4 +45,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.flex-content {
+  display: flex;
+  flex-direction: row;
 }
